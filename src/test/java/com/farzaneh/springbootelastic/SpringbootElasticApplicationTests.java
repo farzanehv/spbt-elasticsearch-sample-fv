@@ -1,13 +1,13 @@
-package com.farzaneh.springbootelastic;
+//package com.farzaneh.springbootelastic;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+//import org.junit.jupiter.api.Test;
+//import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class SpringbootElasticApplicationTests {
+//@SpringBootTest
+//class SpringbootElasticApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+//	@Test
+//	void contextLoads() {
+//	}
 
-}
+//}

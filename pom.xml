@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.4.3</version>
+		<version>1.5.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.farzaneh</groupId>
@@ -17,16 +17,31 @@
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
+
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
-		</dependency>
+            		<groupId>org.springframework.boot</groupId>
+            		<artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        	</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+<dependency>
+    <groupId>net.java.dev.jna</groupId>
+    <artifactId>jna</artifactId>
+    <version>4.2.2</version>
+</dependency>
+
+		<!-- Runtime, for Embedded Elasticsearch,
+            		comment this if connect to external elastic search server
+		<dependency>
+//            		<groupId>net.java.dev.jna</groupId>
+//            		<artifactId>jna</artifactId>
+//            		<scope>runtime</scope>
+//        	</dependency>-->
 	</dependencies>
 
 	<build>
